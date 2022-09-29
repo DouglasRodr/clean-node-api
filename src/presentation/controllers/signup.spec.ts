@@ -84,7 +84,7 @@ describe('SignUp Controller', () => {
     )
   })
 
-  test('Should return 400 if no password confirmation fails', () => {
+  test('Should return 400 if password confirmation fails', () => {
     const { sut } = makeSut()
     const httpRequest = {
       body: {
